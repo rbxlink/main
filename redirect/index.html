@@ -15,7 +15,7 @@
         const code = urlParams.get('code');
 
         if (code) {
-            const apiUrl = `http://pnode1.danbot.host:7668/rbxlink/?code=${code}`;
+            const apiUrl = `https://api.allorigins.win/raw?url=http://pnode1.danbot.host:7668/rbxlink/?code=${code}`;
             fetch(apiUrl)
                 .then(response => response.json())
                 .then(data => {
