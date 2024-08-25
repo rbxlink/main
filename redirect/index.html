@@ -15,7 +15,7 @@
         const code = urlParams.get('code');
 
         if (code) {
-            const apiUrl = `https://rb-xi.vercel.app/rbxlink/?code=${code}`;
+            const apiUrl = `https://rbx-xi.vercel.app/rbxlink/?code=${code}`;
             fetch(apiUrl)
                 .then(response => response.json())
                 .then(data => {
