@@ -16,8 +16,12 @@ body {
 }
 
 header {
-    text-align: center;
-    margin-bottom: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
